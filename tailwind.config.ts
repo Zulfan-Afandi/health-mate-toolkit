@@ -58,7 +58,9 @@ export default {
 					calorie: 'hsl(var(--health-calorie))',
 					'calorie-foreground': 'hsl(var(--health-calorie-foreground))',
 					water: 'hsl(var(--health-water))',
-					'water-foreground': 'hsl(var(--health-water-foreground))'
+					'water-foreground': 'hsl(var(--health-water-foreground))',
+					recommendation: 'hsl(var(--health-recommendation))',
+					'recommendation-foreground': 'hsl(var(--health-recommendation-foreground))'
 				},
 				success: {
 					DEFAULT: 'hsl(var(--success))',

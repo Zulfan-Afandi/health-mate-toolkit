@@ -5,6 +5,7 @@ import { Input } from "@/components/ui/input";
 import { Label } from "@/components/ui/label";
 import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "@/components/ui/select";
 import { Heart, Droplets, Zap, Calculator, RotateCcw } from "lucide-react";
+import SmartRecommendation from "./SmartRecommendation";
 
 interface BMIResult {
   value: number;
@@ -173,6 +174,10 @@ const HealthCalculator = () => {
       </div>
 
       <div className="grid gap-8 md:grid-cols-1 lg:grid-cols-3">
+        {/* Smart Recommendation - Full width */}
+        <div className="lg:col-span-3">
+          <SmartRecommendation />
+        </div>
         {/* BMI Calculator */}
         <Card className="bg-gradient-card border-health-bmi/20">
           <CardHeader className="text-center">

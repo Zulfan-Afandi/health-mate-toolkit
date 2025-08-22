@@ -43,6 +43,8 @@ All colors MUST be HSL.
     --health-calorie-foreground: 0 0% 100%;
     --health-water: 191 91% 36%;
     --health-water-foreground: 0 0% 100%;
+    --health-recommendation: 120 35% 55%;
+    --health-recommendation-foreground: 0 0% 100%;
     
     /* Status colors */
     --success: 142 76% 36%;
